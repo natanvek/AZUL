@@ -1,0 +1,225 @@
+*{margin:0; padding:0;}
+.fondo{
+    left:0;
+    top:20px;
+    left: 20px;
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    display: none;
+
+}
+.board{
+    left:3vw;
+    top:3vh;
+    background-color: 	teal;
+    position: absolute;
+    width: 94vw;
+    height: 94vh;
+    /* display: none; */
+}
+#flexMiniBoards {
+    /* margin: 2px; */
+    height: 94vh;
+    width: 94vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute; 
+    background-color: transparent;
+    flex-wrap: wrap;  
+}
+.miniBoard {
+    position: relative;
+    height: 16vw;/*270px alto vs 405px ancho*/
+    width: 24vw;
+    margin-left: 11.5vw;
+    margin-right: 11.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    display: flex;
+    background-image: url("../img/tablero.png");
+}
+.image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#flexHolders {
+    height: 94vh;
+    width: 15vw;
+    left: 36vw;
+    display: flex;
+    position: absolute; 
+    background-color: transparent;
+    flex-wrap: wrap;  
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+#popo {
+    height: 100vh;
+    width: 100vw;
+    /* display: flex; */
+    /* flex-direction: column; */
+    position: absolute; 
+    background-color: black;
+    /* justify-content: center; */
+    display: none;
+}
+#popo2 {
+    height: 10vw;
+    width: 10vw;
+    left: 20px;
+    position: absolute;
+    justify-content: space-evenly;
+    border-radius: 0%;
+}
+#input0{
+    left: 240px;
+    position: absolute;
+    margin: 2vh;
+    width: 67px;
+    height: 83px;
+}
+.input{
+    left: 240px;
+    top: 50vh;
+    position: absolute;
+    margin: 2vh;
+    width: 100px;
+}
+#flexPozo {
+    height: 94vh;
+    width: 6vw;
+    left: 51vw;
+    display: flex;
+    flex-direction: column;
+    position: absolute; 
+    background-color: transparent;
+    flex-wrap: wrap;  
+    align-content: flex-start;
+    /* justify-content: space-evenly; */
+}
+.holder{
+    width: 4.5vw;
+    height:4.5vw;
+    margin: 1vw;
+    border: solid black 0.4vw;
+    border-radius: 50%;
+    background-color: #a5a5a5;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+}
+.ficha{
+    width: 1.7vw;
+    height: 1.7vw;
+    border-radius: 10%;
+    margin: 1.2px;
+}
+.points{
+    position: absolute;
+    left: calc(100% - 20px);
+    top: calc(100% - 20px);
+}
+.columnaT0{
+    left:53.2%;
+}
+.columnaT1{
+    left:61.5%;
+}
+.columnaT2{
+    left:69.8%;
+}
+.columnaT3{
+    left:78%;
+}
+.columnaT4{
+    left:86.3%;
+}
+.filaT0{
+    top: 15%;
+}
+.filaT1{
+    top: 27.4%;
+}
+.filaT2{
+    top: 39.8%;
+}
+.filaT3{
+    top: 52.2%;
+}
+.filaT4{
+    top: 64.6%;
+}
+.fila0{
+    top: 15%;
+}
+.fila1{
+    top: 27.4%;/*12.4*/
+}
+.fila2{
+    top: 39.8%;
+}
+.fila3{
+    top: 52.2%;
+}
+.fila4{
+    top: 64.6%;
+}
+.fila5{
+    top: 84%;
+}
+.columna-2{
+    left: 52.9%;
+}
+.columna-1{
+    left: 44.7%;
+}
+.columna0{
+    left: 36.5%;
+}
+.columna1{
+    left: 28.3%;
+}
+.columna2{
+    left: 20.1%;
+}
+.columna3{
+    left: 11.9%;
+}
+.columna4{
+    left: 3.7%;/*8.2*/
+}
+.arrow{
+    height: 1vw;
+    width: 1.5vw;
+    background-image: url(../img/right-arrow-direction.png);
+    position: absolute;
+    display: none;
+}
+.a0{
+    left: 30%;
+    top: 18%;
+}
+.a1{
+    left: 22%;
+    top: 30%;
+}
+.a2{
+    left: 14%;
+    top: 42%;
+}
+.a3{
+    left: 6%;
+    top: 54%;
+}
+.a4{
+    left: -2%;
+    top: 66%;
+}
+.a5 {
+    left: -2%;
+    top: 86%;
+}
