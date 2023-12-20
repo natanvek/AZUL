@@ -3,4 +3,4 @@
 
 ## Descripción
 
- Es una versión virtual del juego de mesa Azul, en diciembre de 2020 había creado el juego para jugar localmente entre personas. Luego en Noviembre 2021 cree una inteligencia artificial con el método Monte Carlo Tree Search, combinando con otras estrategias para manejar la aleatoreidad propia del juego. Esta es configurable cuanto tiempo tarda entre jugada y jugada. Además juega excelente, en https://azee.mattle.online/lobby logró posicionarse en el top 30 mejores jugadores de la página. 
+It is a virtual version of the Azul board game. In December 2020, I created the game to be played locally between people. Then, in November 2021, I developed an artificial intelligence using the Monte Carlo Tree Search method, combined with other strategies to handle the inherent randomness of the game. This AI is configurable in terms of how much time it takes between moves. Moreover, it plays exceptionally well, on https://azee.mattle.online/lobby, it managed to rank among the top 30 best players on the platform.
